@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body class="vsc-initialized  sidebar-toggled">
+    <div class="d-flex">
+        <aside class="sidebar vh-100 border-end pt-3 d-flex bg-white flex-column">
+
+            <div class="px-4">
+                <strong>健身俱樂部</strong>-後台管理
+            </div>
+
+            <div class="overflow-auto mt-3">
+
+                <div>
+                    <a href="#" class="sidebar-link">
+                        <div class="px-4">
+                            <i class="bi bi-house-door"></i>首頁
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#menu-order" class="sidebar-link" data-bs-toggle="collapse">
+                        <div class="d-flex justify-content-between px-4">
+                            <p class="mb-0">
+                                <i class="bi bi-person-fill"></i>會員管理
+                            </p>
+                            <i class="bi bi-arrow-down-circle"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="menu-order">
+                        <a href="#" class="sidebar-link">
+                            <div class="ps-5">
+                                白金成員
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" class="mt-auto sidebar-link text-primary"><div class="px-4" >登出</div></a>
+        </aside>
+        <main class="main">
+            <div class="bg-white w-100 border-1 border-bottom">
+                <a href="#" class="d-inline-block py-3 px-3 border-end" id="toggle-btn">
+                    <i class="bi bi-arrows-angle-expand"></i>
+                </a>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+</body>
+
+</html>
